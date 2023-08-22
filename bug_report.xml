@@ -2,7 +2,7 @@
 <root>
     <ID>10</ID>
     <Title>Товар не добавляется в корзину</Title>
-    <Project>newshop</progect>
+    <Project>newshop</Project>
     <Steps>
        <Step_1>Перейти на сайт 'newshop.com' как авторизованный пользователь</Step_1>
        <Step_2>Выбрать вкладку 'Каталог' в предложенном списке</Step_2>
@@ -18,7 +18,7 @@
     <Component>Кнопка "Добавить"</Component>
     <Build>0.3.5</Build>
     <Actual_result>Нажатие кнопки 'Добавить' не добавляет товар в корзину</Actual_result>
-    <Expected_result>ажатие кнопки 'Добавить' добавляет выбранный товар в корзину</Expected_result>
+    <Expected_result>нажатие кнопки 'Добавить' добавляет выбранный товар в корзину</Expected_result>
     <Severity>Critical</Severity>
     <Priority>High</Priority>
     <Status>Open</Status>

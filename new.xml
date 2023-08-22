@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-<Person>
 	<name>Victor_L</name>
 	<age>32</age>
 	<pets>1</pets>
 	<salary>500</salary>
-</Person>
 </root>
