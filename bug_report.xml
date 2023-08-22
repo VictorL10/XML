@@ -1,1 +1,27 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <ID>10</ID>
+    <Title>Товар не добавляется в корзину</Title>
+    <Project>newshop</progect>
+    <Steps>
+       <Step_1>Перейти на сайт 'newshop.com' как авторизованный пользователь</Step_1>
+       <Step_2>Выбрать вкладку 'Каталог' в предложенном списке</Step_2>
+       <Step_3>На вкладке 'Каталог' выбрать любой товар с помощью чек-бокса</Step_3>
+       <Step_4>ажать кнопку 'довабить' для добавления товара в корзину</Step_4>
+       <Step_5>Осуществить переход в корзину</Step_5>
+       <Step_6>Обратить внимание на отсутвие выбранного товара в корзине</Step_6>
+    </Steps>
+    <Enviroment>
+        <OS>Windows 11 Pro x64 build 22621</OS>
+        <Browser>Google Chrome 115.0.5790.173 х64</Browser>
+    </Enviroment>
+    <Component>Кнопка "Добавить"</Component>
+    <Build>0.3.5</Build>
+    <Actual_result>Нажатие кнопки 'Добавить' не добавляет товар в корзину</Actual_result>
+    <Expected_result>ажатие кнопки 'Добавить' добавляет выбранный товар в корзину</Expected_result>
+    <Severity>Critical</Severity>
+    <Priority>High</Priority>
+    <Status>Open</Status>
+    <Author>Victor_L</Author>
+    <Attachments>Cсылка на картинку или видео с багом</Attachments>
+</root>
